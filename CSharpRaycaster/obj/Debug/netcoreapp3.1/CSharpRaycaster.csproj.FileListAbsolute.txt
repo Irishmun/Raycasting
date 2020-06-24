@@ -1,0 +1,13 @@
+F:\Projects\CSharpRaycaster\bin\Debug\netcoreapp3.1\CSharpRaycaster.exe
+F:\Projects\CSharpRaycaster\obj\Debug\netcoreapp3.1\CSharpRaycaster.csprojAssemblyReference.cache
+F:\Projects\CSharpRaycaster\obj\Debug\netcoreapp3.1\CSharpRaycaster.AssemblyInfoInputs.cache
+F:\Projects\CSharpRaycaster\obj\Debug\netcoreapp3.1\CSharpRaycaster.AssemblyInfo.cs
+F:\Projects\CSharpRaycaster\bin\Debug\netcoreapp3.1\CSharpRaycaster.deps.json
+F:\Projects\CSharpRaycaster\bin\Debug\netcoreapp3.1\CSharpRaycaster.runtimeconfig.json
+F:\Projects\CSharpRaycaster\bin\Debug\netcoreapp3.1\CSharpRaycaster.runtimeconfig.dev.json
+F:\Projects\CSharpRaycaster\bin\Debug\netcoreapp3.1\CSharpRaycaster.dll
+F:\Projects\CSharpRaycaster\bin\Debug\netcoreapp3.1\CSharpRaycaster.pdb
+F:\Projects\CSharpRaycaster\bin\Debug\netcoreapp3.1\OpenTK.dll
+F:\Projects\CSharpRaycaster\obj\Debug\netcoreapp3.1\CSharpRaycaster.csproj.CopyComplete
+F:\Projects\CSharpRaycaster\obj\Debug\netcoreapp3.1\CSharpRaycaster.dll
+F:\Projects\CSharpRaycaster\obj\Debug\netcoreapp3.1\CSharpRaycaster.pdb
