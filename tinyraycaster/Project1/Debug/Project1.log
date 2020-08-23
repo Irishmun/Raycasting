@@ -1,12 +1,12 @@
-﻿  main.cpp
-D:\github\Raycasting\tinyraycaster\Project1\main.cpp(11,40): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\github\Raycasting\tinyraycaster\Project1\main.cpp(82,24): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\github\Raycasting\tinyraycaster\Project1\main.cpp(83,24): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\github\Raycasting\tinyraycaster\Project1\main.cpp(84,24): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\github\Raycasting\tinyraycaster\Project1\main.cpp(124,72): warning C4244: 'argument': conversion from 'float' to 'const size_t', possible loss of data
-D:\github\Raycasting\tinyraycaster\Project1\main.cpp(124,53): warning C4244: 'argument': conversion from 'float' to 'const size_t', possible loss of data
-D:\github\Raycasting\tinyraycaster\Project1\main.cpp(131,37): warning C4305: '+=': truncation from 'double' to 'float'
-D:\github\Raycasting\tinyraycaster\Project1\main.cpp(135,17): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
-D:\github\Raycasting\tinyraycaster\Project1\main.cpp(136,17): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
-D:\github\Raycasting\tinyraycaster\Project1\main.cpp(140,25): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+﻿  gui.cpp
+D:\github\Raycasting\tinyraycaster\Project1\gui.cpp(28,72): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\github\Raycasting\tinyraycaster\Project1\gui.cpp(78,55): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\github\Raycasting\tinyraycaster\Project1\gui.cpp(79,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\github\Raycasting\tinyraycaster\Project1\gui.cpp(80,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\github\Raycasting\tinyraycaster\Project1\gui.cpp(83,50): warning C4244: 'argument': conversion from 'float' to 'const size_t', possible loss of data
+D:\github\Raycasting\tinyraycaster\Project1\gui.cpp(83,37): warning C4244: 'argument': conversion from 'float' to 'const size_t', possible loss of data
+D:\github\Raycasting\tinyraycaster\Project1\gui.cpp(84,50): warning C4244: 'argument': conversion from 'float' to 'const size_t', possible loss of data
+D:\github\Raycasting\tinyraycaster\Project1\gui.cpp(84,46): warning C4244: 'argument': conversion from 'float' to 'const size_t', possible loss of data
+  textures.cpp
+  Generating Code...
   Project1.vcxproj -> D:\github\Raycasting\tinyraycaster\Project1\Debug\TinyRaycaster.exe

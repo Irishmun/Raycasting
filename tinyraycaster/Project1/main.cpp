@@ -1,149 +1,108 @@
+#define _USE_MATH_DEFINES
+#include <cmath>
 #include <iostream>
-#include <fstream>
-#include <vector>
-#include <cstdint>
 #include <cassert>
-//#define _USE_MATH_DEFINES;
-//#include <math.h>
-//these two will allow for math constants, such as pi(M_PI)
-using namespace std;
+#include <algorithm>
 
-const float PI = 3.14159265358979323846;
+#include "utils.h"
+#include "main.h"
 
-uint32_t pack_color(const uint8_t R, const uint8_t G, const uint8_t B, const uint8_t A = 255)
-{
-	return (A << 24) + (B << 16) + (G << 8) + R;
+int wall_x_texcoord(const float hitx, const float hity, const Texture& tex_walls) {
+    float x = hitx - floor(hitx + .5); // x and y contain (signed) fractional parts of hitx and hity,
+    float y = hity - floor(hity + .5); // they vary between -0.5 and +0.5, and one of them is supposed to be very close to 0
+    int tex = x * tex_walls.size;
+    if (std::abs(y) > std::abs(x)) // we need to determine whether we hit a "vertical" or a "horizontal" wall (w.r.t the map)
+        tex = y * tex_walls.size;
+    if (tex < 0) // do not forget x_texcoord can be negative, fix that
+        tex += tex_walls.size;
+    assert(tex >= 0 && tex < (int)tex_walls.size);
+    return tex;
 }
 
-void unpack_color(const uint32_t& color, uint8_t& R, uint8_t& G, uint8_t& B, uint8_t& A)
-{
-	R = (color >> 0) & 255;
-	G = (color >> 8) & 255;
-	B = (color >> 16) & 255;
-	A = (color >> 24) & 255;
+void draw_map(FrameBuffer& fb, const std::vector<Sprite>& sprites, const Texture& tex_walls, const Map& map, const size_t cell_w, const size_t cell_h) {
+    for (size_t j = 0; j < map.h; j++) {  // draw the map itself
+        for (size_t i = 0; i < map.w; i++) {
+            if (map.is_empty(i, j)) continue; // skip empty spaces
+            size_t rect_x = i * cell_w;
+            size_t rect_y = j * cell_h;
+            size_t texid = map.get(i, j);
+            assert(texid < tex_walls.count);
+            fb.draw_rectangle(rect_x, rect_y, cell_w, cell_h, tex_walls.get(0, 0, texid)); // the color is taken from the upper left pixel of the texture #texid
+        }
+    }
+    for (size_t i = 0; i < sprites.size(); i++) { // show the monsters
+        fb.draw_rectangle(sprites[i].x * cell_w - 3, sprites[i].y * cell_h - 3, 6, 6, pack_color(255, 0, 0));
+    }
 }
 
-void drop_ppm_image(const string filename, const vector<uint32_t>& image, const size_t width, const size_t height)
-{
-	assert(image.size() == width * height);
-	ofstream ofs(filename, ios::binary);
-	ofs << "P6\n" << width << " " << height << "\n255\n";
-	for (size_t i = 0; i < height * width; i++)
-	{
-		uint8_t R, G, B, A;
-		unpack_color(image[i], R, G, B, A);
-		ofs << static_cast<char>(R) << static_cast<char>(G) << static_cast<char>(B);
-	}
-	ofs.close();
+void draw_sprite(FrameBuffer& fb, const Sprite& sprite, const std::vector<float>& depth_buffer, const Player& player, const Texture& tex_sprites) {
+    // absolute direction from the player to the sprite (in radians)
+    float sprite_dir = atan2(sprite.y - player.y, sprite.x - player.x);
+    while (sprite_dir - player.a > M_PI) sprite_dir -= 2 * M_PI; // remove unncesessary periods from the relative direction
+    while (sprite_dir - player.a < -M_PI) sprite_dir += 2 * M_PI;
+
+    size_t sprite_screen_size = std::min(2000, static_cast<int>(fb.h / sprite.player_dist)); // screen sprite size
+    int h_offset = (sprite_dir - player.a) * (fb.w / 2) / (player.fov) + (fb.w / 2) / 2 - sprite_screen_size / 2; // do not forget the 3D view takes only a half of the framebuffer, thus fb.w/2 for the screen width
+    int v_offset = fb.h / 2 - sprite_screen_size / 2;
+
+    for (size_t i = 0; i < sprite_screen_size; i++) {
+        if (h_offset + int(i) < 0 || h_offset + i >= fb.w / 2) continue;
+        if (depth_buffer[h_offset + i] < sprite.player_dist) continue; // this sprite column is occluded
+        for (size_t j = 0; j < sprite_screen_size; j++) {
+            if (v_offset + int(j) < 0 || v_offset + j >= fb.h) continue;
+            uint32_t color = tex_sprites.get(i * tex_sprites.size / sprite_screen_size, j * tex_sprites.size / sprite_screen_size, sprite.tex_id);
+            uint8_t r, g, b, a;
+            unpack_color(color, r, g, b, a);
+            if (a > 128)
+                fb.set_pixel(fb.w / 2 + h_offset + i, v_offset + j, color);
+        }
+    }
 }
 
-void draw_rectangle(vector<uint32_t>& img, const size_t img_w, const size_t img_h, const size_t x, const size_t y, const size_t w, size_t h, const uint32_t color)
-{
-	assert(img.size() == img_w * img_h);
-	for (size_t X = 0; X < w; X++)
-	{
-		for (size_t Y = 0; Y < h; Y++)
-		{
-			size_t cx = x + X;
-			size_t cy = y + Y;
-			//assert(cx < img_w&& cy < img_h);
-			if (cx >= img_w || cy >= img_h)continue;
-			img[cx + cy * img_w] = color;
-		}
-	}
+void render(FrameBuffer& fb, const GameState& gs) {
+    const Map& map = gs.map;
+    const Player& player = gs.player;
+    const std::vector<Sprite>& sprites = gs.monsters;
+    const Texture& tex_walls = gs.tex_walls;
+    const Texture& tex_monst = gs.tex_monst;
+
+    fb.clear(pack_color(255, 255, 255)); // clear the screen
+
+    const size_t cell_w = fb.w / (map.w * 2); // size of one map cell on the screen
+    const size_t cell_h = fb.h / map.h;
+    std::vector<float> depth_buffer(fb.w / 2, 1e3);
+
+    for (size_t i = 0; i < fb.w / 2; i++) { // draw the visibility cone AND the "3D" view
+        float angle = player.a - player.fov / 2 + player.fov * i / float(fb.w / 2);
+        for (float t = 0; t < 20; t += .01) { // ray marching loop
+            float x = player.x + t * cos(angle);
+            float y = player.y + t * sin(angle);
+            fb.set_pixel(x * cell_w, y * cell_h, pack_color(190, 190, 190)); // this draws the visibility cone
+
+            if (map.is_empty(x, y)) continue;
+
+            size_t texid = map.get(x, y); // our ray touches a wall, so draw the vertical column to create an illusion of 3D
+            assert(texid < tex_walls.count);
+            float dist = t * cos(angle - player.a);
+            depth_buffer[i] = dist;
+            size_t column_height = std::min(2000, int(fb.h / dist));
+            int x_texcoord = wall_x_texcoord(x, y, tex_walls);
+            std::vector<uint32_t> column = tex_walls.get_scaled_column(texid, x_texcoord, column_height);
+            int pix_x = i + fb.w / 2; // we are drawing at the right half of the screen, thus +fb.w/2
+            for (size_t j = 0; j < column_height; j++) { // copy the texture column to the framebuffer
+                int pix_y = j + fb.h / 2 - column_height / 2;
+                if (pix_y >= 0 && pix_y < (int)fb.h) {
+                    fb.set_pixel(pix_x, pix_y, column[j]);
+                }
+            }
+            break;
+        } // ray marching loop
+    } // field of view ray sweeping
+
+    draw_map(fb, sprites, tex_walls, map, cell_w, cell_h);
+
+    for (size_t i = 0; i < sprites.size(); i++) { // draw the sprites
+        draw_sprite(fb, sprites[i], depth_buffer, player, tex_monst);
+    }
 }
 
-int main() { //the actual thing that runs
-	const size_t win_w = 1024;//image width
-	const size_t win_h = 512;//image width
-	vector<uint32_t> framebuffer(win_h * win_h, pack_color(255,255,255));//image itself
-
-	const size_t map_w = 16;
-	const size_t map_h = 16;
-	const char map[] = "1111333333331111"\
-		"2000000000000001"\
-		"2000000222220001"\
-		"2000001000000001"\
-		"1000001002221111"\
-		"1000004000000001"\
-		"1000211110000001"\
-		"1000100022211001"\
-		"1000100010000001"\
-		"1000100020011111"\
-		"1000000020000001"\
-		"3000000020000001"\
-		"1000000010000001"\
-		"1011111110000001"\
-		"1000000000000001"\
-		"1113333333311111";
-
-	assert(sizeof(map) == map_w * map_h + 1);
-
-	float player_x = 3.456;
-	float player_y = 2.345;
-	float player_a = 1.523;
-	const float fov = PI / 3;
-	//draw gradient
-	//for (size_t y = 0; y < win_h; y++)
-	//{
-	//	for (size_t x = 0; x < win_w; x++)
-	//	{
-	//		uint8_t R = 255 * y / float(win_h);
-	//		uint8_t G = 255 * x / float(win_w);
-	//		uint8_t B = 0;
-	//		framebuffer[x + y * win_w] = pack_color(R, G, B);
-	//	}
-	//}
-	//end draw gradient
-	//const size_t rect_w = win_w / map_w;
-	const size_t rect_w = win_w / (map_w * 2);
-	const size_t rect_h = win_h / map_h;
-	//draw map
-	for (size_t Y = 0; Y < map_h; Y++)
-	{
-		for (size_t X = 0; X < map_w; X++)
-		{
-			if (map[X + Y * map_w] == ' ') continue;
-			else if (map[X + Y * map_w] == '0')
-			{
-				size_t rect_x = X * rect_w;
-				size_t rect_y = Y * rect_h;
-				draw_rectangle(framebuffer, win_w, win_h, rect_x, rect_y, rect_w, rect_h, pack_color(0, 0, 0));
-				//continue;
-			}
-			else
-			{
-				size_t rect_x = X * rect_w;
-				size_t rect_y = Y * rect_h;
-				draw_rectangle(framebuffer, win_w, win_h, rect_x, rect_y, rect_w, rect_h, pack_color(255, 255, 255));
-			}
-		}
-	}
-	//end draw map
-	//draw player
-	draw_rectangle(framebuffer, win_w, win_h, player_x * rect_w, player_y * rect_h, 5, 5, pack_color(255, 255, 0));
-	//end draw player
-	//raycast
-	for (size_t i = 0; i < win_w/2; i++)
-	{
-		float angle = player_a - fov / 2 + fov * i / float(win_w/2);
-
-		for (float t = 0; t < 20; t += .05)
-		{
-			float cx = player_x + t * cos(angle);
-			float cy = player_y + t * sin(angle);
-			size_t pix_x = cx * rect_w;
-			size_t pix_y = cy * rect_h;
-			framebuffer[pix_x + pix_y * win_w] = pack_color(212, 208, 200);
-			
-			if (map[int(cx) + int(cy) * map_w] != '0')break;
-			size_t column_height = win_h / t;
-			draw_rectangle(framebuffer, win_w, win_h, win_w / 2 + i, win_h / 2 - column_height / 2, 1, column_height, pack_color(255,0,0));
-			break;
-		}
-	}
-	//end raycast
-	drop_ppm_image("./out.ppm", framebuffer, win_w, win_h);
-
-	return 0;
-}
