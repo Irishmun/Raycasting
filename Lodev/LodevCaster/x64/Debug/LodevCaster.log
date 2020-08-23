@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\github\Raycasting\Lodev\LodevCaster\main.cpp(72,28): warning C4138: '*/' found outside of comment
+  LodevCaster.vcxproj -> D:\github\Raycasting\Lodev\LodevCaster\x64\Debug\LodevCaster.exe

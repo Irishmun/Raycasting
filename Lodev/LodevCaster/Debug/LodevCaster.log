@@ -1,0 +1,7 @@
+﻿  main.cpp
+D:\github\Raycasting\Lodev\LodevCaster\main.cpp(72,28): warning C4138: '*/' found outside of comment
+  quickcg.cpp
+D:\github\Raycasting\Lodev\LodevCaster\quickcg.cpp(1905,31): warning C4018: '<': signed/unsigned mismatch
+D:\github\Raycasting\Lodev\LodevCaster\quickcg.cpp(1909,10): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  LodevCaster.vcxproj -> D:\github\Raycasting\Lodev\LodevCaster\Debug\LodevCaster.exe

@@ -1,0 +1,2 @@
+D:\github\Raycasting\tinyraycaster\Project1\Debug\TinyRaycaster.exe
+D:\github\Raycasting\tinyraycaster\Project1\Debug\TinyRaycaster.pdb

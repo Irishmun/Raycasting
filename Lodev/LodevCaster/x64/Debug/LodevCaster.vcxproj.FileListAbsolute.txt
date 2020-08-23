@@ -1,0 +1,2 @@
+D:\github\Raycasting\Lodev\LodevCaster\x64\Debug\LodevCaster.exe
+D:\github\Raycasting\Lodev\LodevCaster\x64\Debug\LodevCaster.pdb

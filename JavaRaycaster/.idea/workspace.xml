@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5e88489-c515-44fb-ab91-474aec4d244a" name="Default Changelist" comment="" />
+    <list default="true" id="95aeceaa-f186-4dfd-bf0e-b7b184afec5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/legacy/OldRaycaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/legacy/input/Keybinds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/Base Code.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/Copying.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/bin/freeglut.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/bin/x64/freeglut.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/include/GL/freeglut.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/include/GL/freeglut_ext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/include/GL/freeglut_std.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/include/GL/glut.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/lib/freeglut.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/lib/x64/freeglut.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/TODO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release MX/Win32/glew32mx.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release MX/x64/glew32mx.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/Win32/glew32.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/Win32/glewinfo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/Win32/visualinfo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/x64/glew32.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/x64/glewinfo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/x64/visualinfo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/credits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/glew.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/glew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/glew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/glew.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/glxew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/gpl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/install.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/khronos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/mesa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/ogl_sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/wglew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/include/GL/glew.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/include/GL/glxew.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/include/GL/wglew.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/Release MX/Win32/glew32mx.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/Release MX/Win32/glew32mxs.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/Release MX/x64/glew32mx.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/Release MX/x64/glew32mxs.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/glew32.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/glew32s.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew32.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaRaycaster/META-INF/JavaRaycaster.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,27 +97,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/legacy/OldRaycaster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="90" column="26" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="26" />
+            <state relative-caret-position="259">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8658#8659#0" expanded="true" />
-                <element signature="e#8693#8694#0" expanded="true" />
+                <element signature="n#!!doc;n#map#0;n#OldRaycaster#0" />
+                <element signature="method#drawPlayer#0;class#OldRaycaster#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.0/1c3a04979231835d20c46c8daf1c9c4020d64568/lwjgl-opengl-3.2.0-sources.jar!/org/lwjgl/opengl/GL11.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83844">
-              <caret line="5019" selection-start-line="5019" selection-end-line="5019" />
-              <folding>
-                <element signature="e#304626#304627#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -61,20 +134,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Program.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/input/Keybinds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/legacy/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/UI/Window.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/Map.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/legacy/OldRaycaster.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -87,7 +157,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,19 +182,43 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaRaycaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRaycaster" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRaycaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRaycaster" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="afterdark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRaycaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRaycaster" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="afterdark" type="462c0819:PsiDirectoryNode" />
+              <item name="legacy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,37 +232,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
-      <module name="JavaRaycaster_main" />
+  <component name="RunManager" selected="Application.OldRaycaster">
+    <configuration name="OldRaycaster" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.afterdark.legacy.OldRaycaster" />
+      <module name="JavaRaycaster.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Program" />
-      </list>
-    </recent_temporary>
+    <configuration name="Raycaster" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.afterdark.Main" />
+      <module name="JavaRaycaster.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.OldRaycaster" />
+      <item itemvalue="Application.Raycaster" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e5e88489-c515-44fb-ab91-474aec4d244a" name="Default Changelist" comment="" />
-      <created>1593036477355</created>
+      <changelist id="95aeceaa-f186-4dfd-bf0e-b7b184afec5b" name="Default Changelist" comment="" />
+      <created>1597867352598</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1593036477355</updated>
+      <updated>1597867352598</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -178,16 +277,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33152762" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3954496" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32932165" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32827735" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -200,24 +299,50 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.0/90cf13b433fc7d88cad33d4bfc885c4598431ec6/lwjgl-glfw-3.2.0-sources.jar!/org/lwjgl/glfw/GLFW.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="90" column="26" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8658#8659#0" expanded="true" />
-            <element signature="e#8693#8694#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="884">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.0/1c3a04979231835d20c46c8daf1c9c4020d64568/lwjgl-opengl-3.2.0-sources.jar!/org/lwjgl/opengl/GL11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83844">
-          <caret line="5019" selection-start-line="5019" selection-end-line="5019" />
+        <state relative-caret-position="170">
+          <caret line="1073" column="23" selection-start-line="1073" selection-start-column="23" selection-end-line="1073" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/UI/Window.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/Map.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/legacy/input/Keybinds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding>
-            <element signature="e#304626#304627#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/legacy/OldRaycaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#map#0;n#OldRaycaster#0" />
+            <element signature="method#drawPlayer#0;class#OldRaycaster#0" />
           </folding>
         </state>
       </provider>
@@ -225,76 +350,9 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
