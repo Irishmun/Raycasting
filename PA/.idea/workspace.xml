@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9512702-d07e-4f0d-b2a6-b884ab72a8fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/World/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/Base Code.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/freeglut.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/freeglut/Copying.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/freeglut/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/freeglut/bin/freeglut.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/freeglut/bin/x64/freeglut.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/freeglut/include/GL/freeglut.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/freeglut/include/GL/freeglut_ext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/freeglut/include/GL/freeglut_std.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/freeglut/include/GL/glut.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/freeglut/lib/freeglut.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/freeglut/lib/x64/freeglut.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/TODO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/bin/Release MX/Win32/glew32mx.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/bin/Release MX/x64/glew32mx.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/bin/Release/Win32/glew32.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/bin/Release/Win32/glewinfo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/bin/Release/Win32/visualinfo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/bin/Release/x64/glew32.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/bin/Release/x64/glewinfo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/bin/Release/x64/visualinfo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/credits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/glew.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/glew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/glew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/glew.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/glxew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/gpl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/install.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/khronos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/mesa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/ogl_sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/doc/wglew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/include/GL/glew.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/include/GL/glxew.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/include/GL/wglew.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/lib/Release MX/Win32/glew32mx.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/lib/Release MX/Win32/glew32mxs.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/lib/Release MX/x64/glew32mx.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/lib/Release MX/x64/glew32mxs.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/lib/glew32.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew-1.11.0/lib/glew32s.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/Glew and Glut/glew32.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/quickCG/charset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/quickCG/credit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/quickCG/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/quickCG/quickcg-sdl2-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/quickCG/quickcg.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../External/quickCG/quickcg.h" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PA" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PA" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PA" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PA" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PA" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="320" />
+    <option name="y" value="175" />
+    <option name="width" value="1920" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="afterdark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="afterdark" type="462c0819:PsiDirectoryNode" />
+              <item name="raycaster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="afterdark" type="462c0819:PsiDirectoryNode" />
+              <item name="raycaster" type="462c0819:PsiDirectoryNode" />
+              <item name="World" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Raycaster" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.afterdark.raycaster.Main" />
+      <module name="PA.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9512702-d07e-4f0d-b2a6-b884ab72a8fb" name="Default Changelist" comment="" />
+      <created>1598406003470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598406003470</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16255961" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32969603" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32969603" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32969603" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969603" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Gradle" weight="0.3298887" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
