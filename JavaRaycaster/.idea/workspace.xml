@@ -1,83 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95aeceaa-f186-4dfd-bf0e-b7b184afec5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/legacy/OldRaycaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/legacy/input/Keybinds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/Base Code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/Copying.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/bin/freeglut.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/bin/x64/freeglut.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/include/GL/freeglut.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/include/GL/freeglut_ext.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/include/GL/freeglut_std.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/include/GL/glut.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/lib/freeglut.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/freeglut/lib/x64/freeglut.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/TODO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release MX/Win32/glew32mx.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release MX/x64/glew32mx.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/Win32/glew32.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/Win32/glewinfo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/Win32/visualinfo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/x64/glew32.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/x64/glewinfo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/bin/Release/x64/visualinfo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/advanced.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/basic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/build.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/credits.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/glew.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/glew.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/glew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/glew.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/glxew.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/gpl.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/install.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/khronos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/mesa.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/ogl_sm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/doc/wglew.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/include/GL/glew.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/include/GL/glxew.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/include/GL/wglew.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/Release MX/Win32/glew32mx.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/Release MX/Win32/glew32mxs.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/Release MX/x64/glew32mx.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/Release MX/x64/glew32mxs.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/glew32.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew-1.11.0/lib/glew32s.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Glew and Glut/glew32.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaRaycaster/META-INF/JavaRaycaster.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program.java" beforeDir="false" />
-    </list>
+    <list default="true" id="95aeceaa-f186-4dfd-bf0e-b7b184afec5b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,7 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,6 +137,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,7 +192,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -328,13 +252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/legacy/OldRaycaster.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -344,6 +261,13 @@
             <element signature="n#!!doc;n#map#0;n#OldRaycaster#0" />
             <element signature="method#drawPlayer#0;class#OldRaycaster#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
