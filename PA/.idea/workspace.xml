@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1253b67b-b4d9-44ba-a893-0a72e19ebec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/PickUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/Sprite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/Texture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/HUD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/OponentPistol64x64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/OponentRifle64x64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/Playerfaces30x31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/Walls64x64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/WorldItems.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/firingAnimations64x64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Entities/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Entities/Entity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Entities/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Entities/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/World/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/World/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/util/Texture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/World/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/World/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Texture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/static/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/Background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/static/Walls32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/Walls32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Math.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -124,11 +100,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/stationaryEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="37" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="339" column="74" lean-forward="true" selection-start-line="339" selection-start-column="74" selection-end-line="339" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -147,32 +141,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc;n#getWindowWidth#0;n#Config#0" />
-                <element signature="n#!!block;n#getScreenWidthModifier#0;n#Config#0" />
-                <element signature="e#966#967#0" expanded="true" />
-                <element signature="method#setFullScreen#1;class#Config#0" />
-                <element signature="method#setShareResources#1;class#Config#0" />
-                <element signature="e#1920#1974#0" />
-                <element signature="e#2365#2424#0" />
-                <element signature="n#!!block;n#getTextureSize#0;n#Config#0" />
-                <element signature="e#2502#2503#0" expanded="true" />
-                <element signature="n#!!block;n#getAtlasX#0;n#Config#0" />
-                <element signature="e#2663#2664#0" expanded="true" />
-                <element signature="n#!!block;n#setAtlasX#0;n#Config#0" />
-                <element signature="e#2744#2745#0" expanded="true" />
-                <element signature="n#!!block;n#getAtlasY#0;n#Config#0" />
-                <element signature="e#2814#2815#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -220,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/IEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/stationaryEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Math.java" />
       </list>
     </option>
   </component>
@@ -287,28 +256,6 @@
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="afterdark" type="462c0819:PsiDirectoryNode" />
               <item name="raycaster" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="afterdark" type="462c0819:PsiDirectoryNode" />
-              <item name="raycaster" type="462c0819:PsiDirectoryNode" />
-              <item name="Entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="afterdark" type="462c0819:PsiDirectoryNode" />
-              <item name="raycaster" type="462c0819:PsiDirectoryNode" />
-              <item name="Graphics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PA" type="b2602c69:ProjectViewProjectNode" />
@@ -396,6 +343,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22852512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -600,6 +548,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="37" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="339" column="74" lean-forward="true" selection-start-line="339" selection-start-column="74" selection-end-line="339" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
