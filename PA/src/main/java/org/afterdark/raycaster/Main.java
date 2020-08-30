@@ -1,15 +1,18 @@
 package org.afterdark.raycaster;
 
+import org.afterdark.raycaster.Entities.Player;
 import org.afterdark.raycaster.World.Map;
 import org.afterdark.raycaster.util.Debug;
 import org.afterdark.raycaster.util.Window;
-import org.afterdark.raycaster.Config.*;
 import org.lwjgl.Version;
 import org.lwjgl.opengl.*;
 
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11.*;
 
+
+//past "render distance", make each distance more white, adding fog
+//add multiple floors by means of raycasting on multiple arrays, having each one be a different floor
 public class Main
 {
     long window;
@@ -17,6 +20,7 @@ public class Main
     private float R = 0, G = 0, B = 0, A = 0;//opengl color range is between 0 and 1
     private Window win;
     private Map map = new Map();
+    private Player player = new Player();
 
     public static void main(String[] args)
     {
@@ -55,7 +59,8 @@ public class Main
             if (Config.getShowWorldMap())
             {
                 //map.drawIntMap(Config.getTexturedGame());
-                map.drawCharMap(Config.getTexturedGame());
+                map.drawIntMap(Config.getTexturedGame());
+                player.drawPlayerOn2DMap();
             }
             glfwSwapBuffers(window);
             glfwPollEvents();

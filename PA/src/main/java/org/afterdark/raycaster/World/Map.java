@@ -139,6 +139,7 @@ public class Map
             glColor3f(1, 1, 1);
         } else
         {
+            //glColor3f(.3f, .3f, .3f);
             glColor3f(0, 0, 0);
         }
         glBegin(GL_QUADS);

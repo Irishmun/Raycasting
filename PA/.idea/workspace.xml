@@ -2,43 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1253b67b-b4d9-44ba-a893-0a72e19ebec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Decorations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/stationaryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Debug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Texture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/static/Background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/static/Walls32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaRaycaster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaRaycaster/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/PickUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/Sprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/Texture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/HUD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/OponentPistol64x64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/OponentRifle64x64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/Playerfaces30x31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/Walls64x64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/WorldItems.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/firingAnimations64x64.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Entities/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Entities/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Entities/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Entities/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/World/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/World/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/afterdark/raycaster/util/Texture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/World/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/World/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Texture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/static/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/Background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/afterdark/static/Walls32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/static/Walls32x32.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -93,27 +81,72 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+            <state relative-caret-position="267">
+              <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#2678#2679#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/World/Map.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="81" column="61" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5282#5283#0" expanded="true" />
+                <element signature="method#Player#1;class#Player#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Input.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/stationaryEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/Texture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/Sprite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -121,71 +154,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+            <state relative-caret-position="221">
+              <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
               <folding>
-                <element signature="n#!!block;n#getWindowWidth#0;n#Config#0" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="n#!!block;n#setWindowWidth#0;n#Config#0" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="n#!!block;n#getFullScreen#0;n#Config#0" />
-                <element signature="e#671#672#0" expanded="true" />
+                <element signature="n#!!doc;n#getWindowWidth#0;n#Config#0" />
+                <element signature="n#!!block;n#getScreenWidthModifier#0;n#Config#0" />
+                <element signature="e#966#967#0" expanded="true" />
                 <element signature="method#setFullScreen#1;class#Config#0" />
-                <element signature="e#837#875#1" />
-                <element signature="e#1040#1041#0" expanded="true" />
                 <element signature="method#setShareResources#1;class#Config#0" />
-                <element signature="e#1428#1429#0" expanded="true" />
-                <element signature="e#1488#1489#0" expanded="true" />
-                <element signature="e#1524#1525#0" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
-                <element signature="e#1675#1676#0" expanded="true" />
-                <element signature="e#1711#1712#0" expanded="true" />
+                <element signature="e#1920#1974#0" />
+                <element signature="e#2365#2424#0" />
+                <element signature="n#!!block;n#getTextureSize#0;n#Config#0" />
+                <element signature="e#2502#2503#0" expanded="true" />
+                <element signature="n#!!block;n#getAtlasX#0;n#Config#0" />
+                <element signature="e#2663#2664#0" expanded="true" />
+                <element signature="n#!!block;n#setAtlasX#0;n#Config#0" />
+                <element signature="e#2744#2745#0" expanded="true" />
+                <element signature="n#!!block;n#getAtlasY#0;n#Config#0" />
+                <element signature="e#2814#2815#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Window.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/World/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1233#1234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Debug.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding>
-                <element signature="e#111#112#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Texture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="46" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3555#3556#0" expanded="true" />
-                <element signature="e#3596#3597#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-102">
+              <caret line="67" column="17" selection-start-line="59" selection-start-column="14" selection-end-line="67" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -209,25 +205,28 @@
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Colors.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Color.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Input.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Entity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/stationaryEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Decorations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Debug.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Texture.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/lode/RayCastermain.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Window.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/World/Map.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/Texture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/PickUp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/IEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/stationaryEntity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1273" />
+    <option name="width" value="1294" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -237,8 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,7 +297,7 @@
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="afterdark" type="462c0819:PsiDirectoryNode" />
               <item name="raycaster" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Entities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PA" type="b2602c69:ProjectViewProjectNode" />
@@ -311,20 +308,32 @@
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="afterdark" type="462c0819:PsiDirectoryNode" />
               <item name="raycaster" type="462c0819:PsiDirectoryNode" />
-              <item name="World" type="462c0819:PsiDirectoryNode" />
+              <item name="Graphics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="PA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="afterdark" type="462c0819:PsiDirectoryNode" />
+              <item name="raycaster" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RunDashboard">
@@ -386,9 +395,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22852512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,7 +406,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33152762" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33359498" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,8 +414,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3289166" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3288854" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,6 +426,9 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Colors.java" />
@@ -449,73 +461,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/stationaryEntity.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/ByteBuffer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/lode/RayCastermain.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Lode/quickCG.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="261" column="22" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/lode/RayCastermain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3723">
-          <caret line="219" column="1" selection-start-line="219" selection-start-column="1" selection-end-line="219" selection-end-column="1" />
+        <state relative-caret-position="663">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/Lode/quickCG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Texture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="46" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3555#3556#0" expanded="true" />
-            <element signature="e#3596#3597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Debug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="153">
           <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding>
             <element signature="e#111#112#0" expanded="true" />
@@ -528,86 +489,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Input.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Texture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="51" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="51" />
+        <state relative-caret-position="442">
+          <caret line="55" column="46" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="46" />
           <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Window.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#2678#2679#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+        <state relative-caret-position="221">
+          <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
           <folding>
-            <element signature="n#!!block;n#getWindowWidth#0;n#Config#0" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="n#!!block;n#setWindowWidth#0;n#Config#0" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="n#!!block;n#getFullScreen#0;n#Config#0" />
-            <element signature="e#671#672#0" expanded="true" />
+            <element signature="n#!!doc;n#getWindowWidth#0;n#Config#0" />
+            <element signature="n#!!block;n#getScreenWidthModifier#0;n#Config#0" />
+            <element signature="e#966#967#0" expanded="true" />
             <element signature="method#setFullScreen#1;class#Config#0" />
-            <element signature="e#837#875#1" />
-            <element signature="e#1040#1041#0" expanded="true" />
             <element signature="method#setShareResources#1;class#Config#0" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
+            <element signature="e#1920#1974#0" />
+            <element signature="e#2365#2424#0" />
+            <element signature="n#!!block;n#getTextureSize#0;n#Config#0" />
+            <element signature="e#2502#2503#0" expanded="true" />
+            <element signature="n#!!block;n#getAtlasX#0;n#Config#0" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="n#!!block;n#setAtlasX#0;n#Config#0" />
+            <element signature="e#2744#2745#0" expanded="true" />
+            <element signature="n#!!block;n#getAtlasY#0;n#Config#0" />
+            <element signature="e#2814#2815#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/Texture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Graphics/Sprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/World/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="81" column="61" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
+        <state relative-caret-position="-102">
+          <caret line="67" column="17" selection-start-line="59" selection-start-column="14" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/PickUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5282#5283#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="method#Player#1;class#Player#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/util/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/afterdark/raycaster/Entities/stationaryEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
