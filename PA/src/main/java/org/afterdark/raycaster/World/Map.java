@@ -1,10 +1,12 @@
 package org.afterdark.raycaster.World;
 
 import org.afterdark.raycaster.Config;
-import org.afterdark.raycaster.util.Window.*;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+import org.afterdark.raycaster.Graphics.Texture;
+import org.afterdark.raycaster.Config.*;
 
-import static org.lwjgl.opengl.GL11.*;
+import static org.afterdark.raycaster.util.Shapes.drawImage;
+import static org.afterdark.raycaster.util.Shapes.drawRect;
+import static org.lwjgl.opengl.GL11.glColor3f;
 
 public class Map
 {
@@ -51,6 +53,8 @@ public class Map
 
     public void drawIntMap(boolean textured)
     {
+        int squareWidth = (Config.getWindowWidth() / 2) / mapWidth;
+        int squareHeight = (Config.getWindowHeight() / mapHeight);
         if (!textured)
         {
             for (int y = 0; y < mapHeight; y++)
@@ -76,7 +80,7 @@ public class Map
                     switch (world[y * mapWidth + x])
                     {
                         case 1:
-                            drawTexturedSquare(x, y, true, 1 );
+                            drawTexturedSquare(x, y, true, 1);
                             break;
                         default:
                             drawTexturedSquare(x, y, false, 0);
@@ -89,6 +93,7 @@ public class Map
 
     public void drawCharMap(boolean textured)
     {
+
         char c;
         if (!textured)
         {
@@ -97,6 +102,7 @@ public class Map
                 for (int x = 0; x < charWorld[y].length(); x++)
                 {
                     c = charWorld[y].charAt(x);
+
                     if (c == ' ' || c == '0')
                     {
                         drawUntexturedSquare(x, y, false);
@@ -117,10 +123,10 @@ public class Map
                     switch (c)
                     {
                         case '1':
-                            drawTexturedSquare(x, y, true ,1);
+                            drawTexturedSquare(x, y, true, 1);
                             break;
                         default:
-                            drawTexturedSquare(x, y, false , 0);
+                            drawTexturedSquare(x, y, false, 0);
                             break;
                     }
                 }
@@ -128,12 +134,12 @@ public class Map
         }
     }
 
-    private void drawUntexturedSquare(int x, int y, boolean wall)
+    public void drawUntexturedSquare(int x, int y, boolean wall)
     {
-        int squareX = (Config.getWindowWidth() / 2) / mapWidth;
-        int squareY = (Config.getWindowHeight() / mapHeight);
-        int xo = x * squareX;
-        int yo = y * squareY;
+        int squareWidth = (Config.getWindowWidth() / 2) / mapWidth;
+        int squareHeight = (Config.getWindowHeight() / mapHeight);
+        int xo = x * squareWidth;
+        int yo = y * squareHeight;
         if (wall)
         {
             glColor3f(1, 1, 1);
@@ -142,24 +148,14 @@ public class Map
             //glColor3f(.3f, .3f, .3f);
             glColor3f(0, 0, 0);
         }
-        glBegin(GL_QUADS);
-        glVertex2i(xo + 1, yo + 1);
-        glVertex2i(xo + 1, yo + squareY - 1);
-        glVertex2i(xo + squareX - 1, yo + squareY - 1);
-        glVertex2i(xo + squareX - 1, yo + 1);
-        glEnd();
+        drawRect(xo, yo, squareWidth, squareHeight);
     }
 
-    private void drawTexturedSquare(int x, int y, boolean wall, int TextureID)
+    public void drawTexturedSquare(int x, int y, boolean wall, int TextureID)
     {
-        throw new NotImplementedException();
+        int squareWidth = (Config.getWindowWidth() / 2) / mapWidth;
+        int squareHeight = (Config.getWindowHeight() / mapHeight);
+        drawImage(x, y, squareWidth, squareHeight);
     }
-    /*methods:
-        -draw map from int array (bool textured)
-        -draw map from char array (bool textured)
-        -draw map textured
-        -draw map untextured
-     */
-
 
 }
