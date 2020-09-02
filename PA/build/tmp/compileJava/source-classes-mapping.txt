@@ -1,18 +1,32 @@
 org/afterdark/raycaster/Entities/Entity.java
  org.afterdark.raycaster.Entities.Entity
-org/afterdark/raycaster/Entities/Player.java
- org.afterdark.raycaster.Entities.Player
+org/afterdark/raycaster/util/Shapes.java
+ org.afterdark.raycaster.util.Shapes
 org/afterdark/raycaster/util/Input.java
  org.afterdark.raycaster.util.Input
-org/afterdark/raycaster/util/Texture.java
- org.afterdark.raycaster.util.Texture
 org/afterdark/raycaster/Main.java
  org.afterdark.raycaster.Main
 org/afterdark/raycaster/util/Debug.java
  org.afterdark.raycaster.util.Debug
+org/afterdark/raycaster/Caster.java
+ org.afterdark.raycaster.Caster
+org/afterdark/raycaster/Config.java
+ org.afterdark.raycaster.Config
+org/afterdark/raycaster/World/Map.java
+ org.afterdark.raycaster.World.Map
+org/afterdark/raycaster/Graphics/Sprite.java
+ org.afterdark.raycaster.Graphics.Sprite
+org/afterdark/raycaster/Entities/Player.java
+ org.afterdark.raycaster.Entities.Player
+org/afterdark/raycaster/Entities/PickUp.java
+ org.afterdark.raycaster.Entities.PickUp
+org/afterdark/raycaster/util/Window.java
+ org.afterdark.raycaster.util.Window
 org/afterdark/raycaster/Entities/stationaryEntity.java
  org.afterdark.raycaster.Entities.stationaryEntity
 org/afterdark/raycaster/Entities/Decorations.java
  org.afterdark.raycaster.Entities.Decorations
-org/afterdark/raycaster/World/Map.java
- org.afterdark.raycaster.World.Map
+org/afterdark/raycaster/Graphics/Texture.java
+ org.afterdark.raycaster.Graphics.Texture
+org/afterdark/raycaster/util/Math.java
+ org.afterdark.raycaster.util.Math
